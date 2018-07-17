@@ -1,5 +1,5 @@
 # The Boxscore Challenge
-The Boxscore is the goto widget on any sports site, to get quick information about a game.  ESPN, Fox Sports, theScore, and many others have solutions.
+The Boxscore is the goto widget on any sports site to get quick information about a game.  ESPN, Fox Sports, theScore, and many others have solutions.
 
 Here is ESPN’s solution. They even went ahead and added pitchers info. 
 http://www.espn.com/mlb/boxscore?gameId=380715102
@@ -12,16 +12,16 @@ The Boxscore challenge gives you the opportunity to use newer concepts and force
 * Design a solution.  
 	* Pick your poison, Sketch or Photoshop.  Give us a quick design.
 * Engineer your solution in Codepen.
-	* Use whatever tools are familiar with you.  
+	* Use whatever tools are familiar to you.  
 * Must be responsive.
 * No need to use a feed or anything for data.  Just use static numbers.
 
 ### Things to Consider
-Think of the different states you need to take into consideration during the lifespan of a game.  Additionally, sports are structured differently.  For example, football has 4 quarters and displays the total score, while baseball has 9+ innings and displays not only the total score, but hits and errors.
+Think of the different states you need to take into consideration during the lifespan of a game, (ie. pre-game, in-game, and post-game.)  Additionally, sports are structured differently.  For example, football has 4 quarters and displays the total score, while baseball has 9 innings, sometimes more, and displays not only the total score, but hits and errors.
 
-As an engineer, we don’t want to be engineering multiple boxscores.  It should adapt to the data given
+However, there are a lot of similarities.  Fox example, all sports have two teams playing one another.  Away is on top, home is on the bottom.  There is always a spot that communicates where in the game we currently are (ie. Top 3rd, 1st Qtr, 3rd Period, Final)
 
-However, there are a lot of similarities.  All sports have two teams playing one another.  Away is on top, home is on the bottom.  There is always a spot that communicates where in the game we currently are (ie. Top 3rd, 1st Qtr, 3rd Period, Final)
+As an engineer, in the case of the boxscore, we don’t want to be engineering multiple components, but one component that can adapt to multiple situations.
 
 ### Deliverable
 * Give us a Pen, with 3 different boxscores.
